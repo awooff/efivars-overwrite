@@ -1,0 +1,23 @@
+# Standard Compiler
+cxx = clang++
+
+# Compiler flags
+cxxflags = -Wall -Werror -ansi -std=c++17
+
+# Src dir
+srcdir = ./src
+
+# Include dir
+incdir = ./include
+
+# Header files
+libdir = ./lib
+
+# Output directory
+outdir = ./release
+
+# Basic compiling rule.
+rule cc
+  command = $cxx $cxxflags -o $outdir/$out -c $in 
+
+build project.o: cc $srcdir/index.cxx

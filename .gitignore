@@ -1,0 +1,7 @@
+# Misc OS things.
+.dolphin
+.DS_Store
+
+# Ninja artifacts
+/release/**/*
+.ninja_log
