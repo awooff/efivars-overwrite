@@ -7,5 +7,6 @@ Reported from a ~~bug~~ feature in the Systemd project, the EFI vars are mounted
 This is just a prototype POC.
 -----------------------------
 
-Don't judge me too heavily. ;///;
+this is not meant to be working code, only provide a demonstration (as of now!)
+
 
